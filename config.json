@@ -1,0 +1,17 @@
+{
+  "highlight_style": "kate",
+  "code_font": "Fira Code",
+  "code_font_size": 10,
+  "code_bg_color": "#F5F5F5",
+  "code_line_spacing": 1.15,
+  "code_border_visible": true,
+  "code_line_numbers": true,
+  "code_line_wrap": true,
+  "smart_typography": true,
+  "table_autofit": true,
+  "table_header_repeat": true,
+  "table_alternating_shading": false,
+  "output_prefix": "Testing",
+  "validate_before_convert": false,
+  "check_broken_links": false
+}
