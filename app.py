@@ -599,7 +599,7 @@ class MarkdownConverterApp(tk.Tk):
                 # Change the value to any of:
                 # "tango" | "pygments" | "kate" | "monochrome" |
                 # "espresso" | "zenburn" | "haddock" | "breezedark"
-                f"--highlight-style={highlight}",
+                f"--syntax-highlighting={highlight}",
 
                 # Standalone = emit a full docx (required for Word output)
                 "--standalone",
