@@ -1,0 +1,21 @@
+# Task List
+
+- `[ ]` **Phase 5: Style Gallery**
+  - `[ ]` Create `converter/ui/style_gallery.py` with 4 SampleCard canvases
+  - `[ ]` Implement `HeadingSampleRenderer`
+  - `[ ]` Implement `ParagraphSampleRenderer`
+  - `[ ]` Implement `TableSampleRenderer`
+  - `[ ]` Implement `CodeSampleRenderer` (with theme colors + font)
+  - `[ ]` Integrate `StyleGallery` into `converter/app.py`
+  - `[ ]` Wire refresh callbacks in `converter/ui/options_panel.py` to trigger gallery refresh
+- `[ ]` **Phase 6: Polish & edge cases**
+  - `[ ]` Implement `AppSettings` persistence on window close (in `converter/app.py` and `converter/config/settings.py`)
+  - `[ ]` Create GitHub theme file (`themes/github.theme`) and add metadata to `converter/config/themes.py`
+  - `[ ]` Add keep-together logic for long code blocks in `converter/core/postprocessor.py`
+  - `[ ]` Update `converter/core/pipeline.py` and `converter/ui/status_bar.py` for unknown language notifications
+  - `[ ]` Update `.spec` file to include `themes/` directory
+  - `[ ]` Update `APP_OVERVIEW.md` and `README.md`
+- `[ ]` **Verification**
+  - `[ ]` Verify settings persistence
+  - `[ ]` Verify style gallery rendering
+  - `[ ]` Verify DOCX keep-together and GitHub theme output
