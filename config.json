@@ -12,6 +12,6 @@
   "table_header_repeat": true,
   "table_alternating_shading": false,
   "output_prefix": "Testing",
-  "validate_before_convert": false,
+  "validate_before_convert": true,
   "check_broken_links": false
 }

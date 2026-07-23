@@ -4,6 +4,15 @@ A standalone, lightweight Python GUI utility that accepts raw Markdown copy-past
 
 Built using standard `tkinter` and `pypandoc`, this tool leverages Pandoc's native Abstract Syntax Tree (AST) parsing. Unlike crude regular expressions or HTML converters, this guarantees that complex elements like nested lists, pipe tables, and fenced code blocks translate perfectly into native Microsoft Word styles.
 
+## 📄 Conversion Quality Comparison
+
+See the difference before and after using the converter:
+
+- [Without_MD2WORD_CONVERTER.docx](Testing_Files_For_MD2WORD/Without_MD2WORD_CONVERTER.docx) — Standard Markdown to Word conversion.
+- [With_MD2WORD_CONVERTER.docx](Testing_Files_For_MD2WORD/With_MD2WORD_CONVERTER.docx) — Generated with this application, preserving headings, tables, lists, code blocks, and professional formatting.
+
+Click either document to preview or download it directly from GitHub.
+
 ## Features
 
 - **Clipboard Integration:** "One-click" fetch feature automatically grabs text directly from your OS clipboard.
